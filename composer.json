@@ -1,0 +1,32 @@
+{
+    "name": "new-school",
+    "authors": [
+        {
+            "name": "Mike Estes",
+            "email": "mikejestes@gmail.com",
+            "homepage": "http://mikejestes.com/",
+            "role": "Developer"
+        }
+    ],
+    "license": [
+        "MIT"
+    ],
+    "require": {
+        "slim/slim": "2.*",
+        "j4mie/paris": "1.2.*"
+    },
+    "require-dev": {
+        "behat/behat": "2.4.*@stable",
+        "guzzle/guzzle": "@stable"
+    },
+
+    "config": {
+        "bin-dir": "bin/"
+    },
+    "autoload": {
+        "psr-0": {
+            "": "src/models/",
+            "Example": "src/lib/"
+        }
+    }
+}
