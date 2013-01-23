@@ -1,7 +1,6 @@
 
-all: db
 
-db: schema fixtures
+reset: schema fixtures
 
 schema:
 	mysql -u example -pexample skim_example < db/schema.sql
