@@ -2,9 +2,7 @@
 ## Installation
     curl -s https://getcomposer.org/installer | php
     php composer.phar install --dev
-Create a Mysql database named `skim_example` with username `example` and password `example`
-
-Use `make schema` to setup the DB, or `make reset` to load some fixtures.
+Use `make schema` to setup the sqlite DB, or `make reset` to load some fixtures.
 ## Highlights
 
 Custom composer autoloading (models and library code)

@@ -3,9 +3,7 @@
 require 'vendor/autoload.php';
 require_once 'helpers.php';
 
-ORM::configure('mysql:host=localhost;dbname=skim_example');
-ORM::configure('username', 'example');
-ORM::configure('password', 'example');
+ORM::configure('sqlite:./data.db');
 
 $app = new \Slim\Slim();
 
