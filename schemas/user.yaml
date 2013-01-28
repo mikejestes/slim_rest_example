@@ -1,0 +1,7 @@
+table: user
+columns:
+    id:
+    name:
+    email:
+    store_id:
+        type: integer

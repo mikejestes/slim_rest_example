@@ -12,14 +12,20 @@
         "MIT"
     ],
     "require": {
-        "slim/slim": "2.*",
-        "j4mie/paris": "1.2.*"
+        "slim/slim":                "2.*",
+        "j4mie/paris":              "1.2.*",
+        "mikejestes/scheezy":       "@dev"
     },
     "require-dev": {
-        "behat/behat": "2.4.*@stable",
-        "guzzle/guzzle": "@stable"
+        "behat/behat":              "2.4.*@stable",
+        "guzzle/guzzle":            "@stable"
     },
-
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/mikejestes/scheezy"
+        }
+    ],
     "config": {
         "bin-dir": "bin/"
     },

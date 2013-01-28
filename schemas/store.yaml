@@ -1,0 +1,7 @@
+table: store
+columns:
+    id:
+    name:
+    active:
+        type: boolean
+    website:

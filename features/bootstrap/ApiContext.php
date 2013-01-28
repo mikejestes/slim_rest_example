@@ -59,7 +59,7 @@ class ApiContext extends BehatContext
     public function theNamePropertyEquals($name, $value)
     {
         $data = $this->_response->json();
-        if (!isset($data[$name])) {
+        if (!isset($data[$name])) {print_r($data);
             throw new Exception("$name property does not exist in response.");
         }
 

@@ -2,8 +2,7 @@
 
 require 'vendor/autoload.php';
 require_once 'helpers.php';
-
-ORM::configure('sqlite:./data.db');
+require_once 'conf/config.php';
 
 $app = new \Slim\Slim();
 
